@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>component</title>
+	<style>
+		body{
+			text-align:center;
+			margin:0;
+			padding:0;
+		}
+
+		/*
+		1
+		*/
+		#center{
+			border:1px solid red;
+			width:80%;
+			height:100px;
+			margin:0 auto;
+		}
+		#logo{
+			border:1px solid blue;
+			float:left;
+			width:9%;
+			margin-right:2%;
+		}
+		.logoimg{
+			margin:0 auto;
+		}
+		.logoimg img{
+			width:100%;
+			height:100%;
+		}
+		#textlogo{
+			border:1px solid rgb(193,85,120);
+			float:left;
+			height:100%;
+			width:70%;
+			margin-right:2%;
+		}
+		#textlogo p{
+			margin-top:30px;
+		}
+		.dons{
+			float:left;
+			border:1px solid blue;
+			height:100px;
+			width:6%;
+			line-height:100px;
+			text-align:center;
+			margin-right:2%;
+		}
+		
+
+		/*
+		2
+		*/
+		#centertwo{
+			border:2px solid red;
+			height:350px;
+			width:80%;
+			margin:0 auto;
+		}
+		.centertwotext{
+			width:80%;
+			margin:0 auto;
+		}
+		.centertwotext p{
+			margin:0 auto;
+			margin-top:20px;
+			font-size:21px;
+		}
+		/*
+		3
+		*/
+		#centerthree{
+			border:2px solid blue;
+			height:210px;
+			width:80%;
+			margin:0 auto;
+		}
+		.centerthreeleft{
+			border:2px solid blue;
+			float:left;
+			width:9%;
+			height:100px;
+			margin-right:2%;
+			margin-top:20px;
+		}
+		.centerthreeleft img{
+			width:100%;
+			height:100%;
+		}
+		.centerthreecenter{
+			border:2px solid red;
+			width:70%;
+			float:left;
+			height:100%;
+			margin-right:2%;
+		}
+		.centerthreeright{
+			border:2px solid green;
+			float:left;
+			width:10%;
+			height:150px;
+			margin-top:20px;
+			padding-left:2%;
+		}
+        .centerthreeright img{
+			border:2px solid green;
+			float:left;
+			width:100%;
+			height:100%；
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="center">
+		<div id="logo"><div class="logoimg"><img src="https://cdn.learnku.com//uploads/communities/WtC3cPLHzMbKRSZnagU9.png!/both/44x44" alt="" /></div></div>
+		<div id="textlogo"><p>texttexttexttexttexttexttexttexttexttextxttexttexttexttexttexttexttexttexttexttext</p></div>
+		<div class="dons"><a href="">Dons</a></div>
+		<div class="dons"><a href="">Dons</a></div>
+	</div>
+	<div id="centertwo">
+		<div class="centertwotext">
+			<p>This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (bootstrap.*), as well as compiled and minified CSS and JS (bootstrap.min.*). source maps (bootstrap.*.map) are available for use with certain browsers' developer tools. Bundled JS files (bootstrap.bundle.js and minified bootstrap.bundle.min.js) include Popper, but not jQuery.
+
+			This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (bootstrap.*), as well as compiled and minified CSS and JS (bootstrap.min.*). source maps (bootstrap.*.map) are available for use with certain browsers' developer tools. Bundled JS files (bootstrap.bundle.js and minified bootstrap.bundle.min.js) include Popper, but not jQuery.</p>
+		</div>
+	</div>
+	<div id="centerthree">
+		<div class="centerthreeleft"><img src="https://cdn.learnku.com//uploads/communities/WtC3cPLHzMbKRSZnagU9.png!/both/44x44" alt=""></div>
+		<div class="centerthreecenter"><p>This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (bootstrap.*), as well as compiled and minified CSS and JS (bootstrap.min.*). source maps (bootstrap.*.map) are available for use with certain browsers' developer tools. Bundled JS files (bootstrap.bundle.js and minified bootstrap.bundle.min.js) include Popper, but not jQuery.
+
+			</p></div>
+		<div class="centerthreeright">
+			<img src="https://code.visualstudio.com/assets/images/windows-logo.png" alt="">
+		</div>
+	</div>
+</body>
+<script>
+	let dons = document.getElementById('textlogo')
+	dons.onclick=function(){
+		alert('happy birthday,Lydia ~')
+	}
+</script>
+</html>
