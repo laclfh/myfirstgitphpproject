@@ -1,0 +1,8 @@
+{
+  "name": "myfirstgitphpproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:laclfh/myfirstgitphpproject.git",
+  "author": "laclfh <1271537629@qq.com>",
+  "license": "MIT"
+}
